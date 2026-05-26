@@ -2,6 +2,7 @@ export const HUNK_DIFF_THEME_NAMES = [
   "graphite",
   "midnight",
   "paper",
+  "one-light",
   "ember",
   "catppuccin-latte",
   "catppuccin-mocha",

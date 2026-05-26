@@ -16,6 +16,7 @@ const BUILT_IN_THEME_IDS = [
   "graphite",
   "midnight",
   "paper",
+  "one-light",
   "ember",
   "catppuccin-latte",
   "catppuccin-mocha",

@@ -6,6 +6,8 @@ All notable user-visible changes to Hunk are documented in this file.
 
 ### Added
 
+- Added One Light as a built-in light theme based on Zed's One Light palette.
+
 ### Changed
 
 ### Fixed

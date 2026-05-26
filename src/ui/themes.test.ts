@@ -3,6 +3,17 @@ import { blendHex, hexColorDistance } from "./lib/color";
 import { CATPPUCCIN_PALETTES, resolveTheme } from "./themes";
 
 describe("themes", () => {
+  test("resolves One Light by theme id", () => {
+    const theme = resolveTheme("one-light", null);
+
+    expect(theme.id).toBe("one-light");
+    expect(theme.label).toBe("One Light");
+    expect(theme.appearance).toBe("light");
+    expect(theme.background).toBe("#dcdcdd");
+    expect(theme.text).toBe("#242529");
+    expect(theme.syntaxColors.function).toBe("#5b79e3");
+  });
+
   test("resolves Catppuccin Latte and Mocha by theme id", () => {
     const latte = resolveTheme("catppuccin-latte", null);
     const mocha = resolveTheme("catppuccin-mocha", null);

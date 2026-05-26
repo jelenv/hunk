@@ -159,6 +159,7 @@ describe("OpenTUI public components", () => {
       "graphite",
       "midnight",
       "paper",
+      "one-light",
       "ember",
       "catppuccin-latte",
       "catppuccin-mocha",
